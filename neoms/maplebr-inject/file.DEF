@@ -1,0 +1,4 @@
+LIBRARY	"dinput8"
+EXPORTS
+	DirectInput8Create=DirectInput8Create	@1		PRIVATE
+	10=EHSvc								@10		PRIVATE

@@ -1,0 +1,15 @@
+target/
+.settings
+.classpath
+.project
+.metadata
+*.rtf
+.log
+.zip
+.rar
+.jar
+chatlog.txt
+dist/*.jar
+.log
+dist/*.zip
+

@@ -1,0 +1,12 @@
+#include "Windows.h"
+
+namespace Addy {
+	
+	DWORD VOTE_WEBSITE_URL_HOOK = 0x00B66199;
+	
+	DWORD VOTE_WEBSITE_URL_RET  =  0x00B6619E;
+
+	DWORD WIN_8 = 0x006035ED;
+
+	DWORD WIN_8_RET = 0x006035F2;
+}
