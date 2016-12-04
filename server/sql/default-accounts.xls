@@ -25,6 +25,10 @@
    <NumberFormat/>
    <Protection/>
   </Style>
+  <Style ss:ID="s62">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Underline="Single"/>
+  </Style>
  </Styles>
  <Worksheet ss:Name="Table1">
   <Table ss:ExpandedColumnCount="25" ss:ExpandedRowCount="6" x:FullColumns="1"
@@ -36,7 +40,7 @@
    <Column ss:Index="13" ss:AutoFitWidth="0" ss:Width="110.25"/>
    <Column ss:Index="15" ss:AutoFitWidth="0" ss:Width="110.25" ss:Span="2"/>
    <Column ss:Index="22" ss:AutoFitWidth="0" ss:Width="110.25" ss:Span="1"/>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">id</Data></Cell>
     <Cell><Data ss:Type="String">name</Data></Cell>
     <Cell><Data ss:Type="String">password</Data></Cell>
@@ -63,7 +67,7 @@
     <Cell><Data ss:Type="String">points</Data></Cell>
     <Cell><Data ss:Type="String">vpoints</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">30004</Data></Cell>
     <Cell><Data ss:Type="String">admin</Data></Cell>
     <Cell><Data ss:Type="String">6862207b5a71e42be8db0e40716ae731eaa529dba6502a8974c3f156c8a4d8afd42c40778f3700dc9d192bf204669f9fbc1706d5148cc63828ee7cae8f0a09c3</Data></Cell>
@@ -90,7 +94,7 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">30008</Data></Cell>
     <Cell><Data ss:Type="String">admin2</Data></Cell>
     <Cell><Data ss:Type="String">6862207b5a71e42be8db0e40716ae731eaa529dba6502a8974c3f156c8a4d8afd42c40778f3700dc9d192bf204669f9fbc1706d5148cc63828ee7cae8f0a09c3</Data></Cell>
@@ -105,7 +109,7 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="String"></Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="String">petitas007@yahoo.ca</Data></Cell>
+    <Cell ss:StyleID="s62"/>
     <Cell><Data ss:Type="String"></Data></Cell>
     <Cell><Data ss:Type="String">0000-00-00 00:00:00</Data></Cell>
     <Cell><Data ss:Type="String"></Data></Cell>
@@ -117,7 +121,7 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
-   <Row ss:Index="6">
+   <Row ss:Index="6" ss:AutoFitHeight="0">
     <Cell ss:Index="3"><Data ss:Type="String">update accounts set password = '6862207b5a71e42be8db0e40716ae731eaa529dba6502a8974c3f156c8a4d8afd42c40778f3700dc9d192bf204669f9fbc1706d5148cc63828ee7cae8f0a09c3', salt = 'e9e1097cf018be55ffe4619ed385ad8e'</Data></Cell>
    </Row>
   </Table>
@@ -128,12 +132,13 @@
     <PageMargins x:Bottom="0.984251969" x:Left="0.78740157499999996"
      x:Right="0.78740157499999996" x:Top="0.984251969"/>
    </PageSetup>
+   <Unsynced/>
    <Selected/>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>14</ActiveRow>
-     <ActiveCol>2</ActiveCol>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>14</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
